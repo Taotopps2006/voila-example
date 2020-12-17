@@ -33,17 +33,3 @@ An example and case study of using Voila with Jupyter Notebook.
 * **Use this when:** 
     * You project has specific, sophisiticated requirements, and the other tools won't cut it.
     * You want to prototype how you can embed ML in an existing app.
-
-
-## Binder deploy direct to the Voila app
-
-This repo has a branch called `voila-direct`, which contains a `Dockerfile` and a script called `entrypoint.sh`. If you pass this branch into mybinder.org, you will create a Jupyter server that opens directly into the voila app.
-
-You can open a Binder server from this branch from the following badge:
-[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/mcullan/voila-example/voila-direct)
-
-To modify this code for your own repo, there are a few things you need to do:
-* Modify the `Dockerfile` to install other packages you need.
-* Modify the `Dockerfile` and `entrypoint.sh` to point to the correct notebook name.
-
-For a more advanced deployment with Docker, there are further things to consider, such as including additional files in the Docker image, but those are outside the scope of this demo.
