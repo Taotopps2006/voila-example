@@ -1,0 +1,15 @@
+name: voila-example
+channels:
+  - conda-forge
+dependencies:
+  - altair
+  - pandas
+  - jupyter
+  - voila
+  - matplotlib
+  - nbconvert
+  - python=3.8
+  - scipy 
+  - scikit-learn
+  - voila-material
+  - voila-vuetify
