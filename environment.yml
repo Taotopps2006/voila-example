@@ -5,11 +5,13 @@ dependencies:
   - altair
   - pandas
   - jupyter
+  - ipyvuetify
   - voila
   - matplotlib
   - nbconvert
   - python=3.8
   - scipy 
   - scikit-learn
+  - voila-gridstack
   - voila-material
   - voila-vuetify
